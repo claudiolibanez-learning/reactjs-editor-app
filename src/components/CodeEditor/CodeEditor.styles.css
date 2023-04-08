@@ -1,0 +1,19 @@
+.editor-container {
+  @apply h-60 flex rounded border border-gray-200 overflow-y-auto;
+}
+
+.editor-content {
+  @apply w-full bg-slate-50;
+}
+
+.editor-line-numbers {
+  @apply flex flex-col px-3 py-2.5;
+}
+
+.editor-number {
+  @apply text-base text-center text-gray-900;
+}
+
+.editor-code-editor {
+  @apply w-full bg-slate-50 text-base text-gray-900 rounded resize-none;
+}
